@@ -68,7 +68,7 @@ a:hover{
     height: 500px;
     position: relative;
     bottom: 60px;
-    background-image: url("image/puma.jpg");
+    background-image: url("./Image/puma.jpg");
 }
 .logo{
     display: flex;
