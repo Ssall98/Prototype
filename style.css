@@ -54,11 +54,6 @@ a:hover{
     left: 25vh;
     bottom: 2vh;
 }
-@media screen and (max-width: 1300px) {
-    .orange{
-        visibility: hidden;
-    }
-}
 .puma{
     display: flex;
     flex-direction: column;
@@ -110,7 +105,14 @@ h1{
 h2{
     text-align: center;
 }
-
-
-
-
+@media screen and (max-width: 500px) {
+    .haut, nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .orange{
+        visibility: hidden;
+    }
+}
